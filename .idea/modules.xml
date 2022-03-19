@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/at_bussiness/at_bussiness.iml" filepath="$PROJECT_DIR$/at_bussiness/at_bussiness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/at_common_db/at_common_db.iml" filepath="$PROJECT_DIR$/at_common_db/at_common_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/at_credit/at_credit.iml" filepath="$PROJECT_DIR$/at_credit/at_credit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/at_debit/at_debit.iml" filepath="$PROJECT_DIR$/at_debit/at_debit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/at_parent.iml" filepath="$PROJECT_DIR$/.idea/at_parent.iml" />
+    </modules>
+  </component>
+</project>
