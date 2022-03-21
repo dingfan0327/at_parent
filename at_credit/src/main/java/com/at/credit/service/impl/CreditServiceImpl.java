@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 
 /**
- * 会员积分服务
+ * 贷记服务
  */
 @Slf4j
 @Service
@@ -22,7 +22,7 @@ public class CreditServiceImpl extends ServiceImpl<CreditMapper, Credit> impleme
      * 定期支取贷记事件
      *
      * @param acctNo       ⽤户名
-     * @param settleAcctNo 增加的积分
+     * @param settleAcctNo 结算账户
      * @param tranAmt      交易金额
      * @param clientNo     客户号
      * @return

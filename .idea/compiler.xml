@@ -14,11 +14,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="at_bussiness" target="11" />
-      <module name="at_common_db" target="11" />
-      <module name="at_credit" target="11" />
-      <module name="at_debit" target="11" />
-      <module name="at_parent" target="11" />
+      <module name="at_bussiness" target="8" />
+      <module name="at_common_db" target="8" />
+      <module name="at_credit" target="8" />
+      <module name="at_debit" target="8" />
+      <module name="at_parent" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 import java.math.BigDecimal;
 
 /**
- * 会员积分服务
+ * 贷记服务
  */
 @Slf4j
 @Service
@@ -27,7 +27,8 @@ public class DebitServiceImpl extends ServiceImpl<DebitMapper, Debit> implements
      * @param clientNo     客户号
      * @return
      */
-    public void decrease(String acctNo, String settleAcctNo, BigDecimal tranAmt, String clientNo, String settleClientNo) {
+    public void decrease(String acctNo, String settleAcctNo, BigDecimal tranAmt, String clientNo,
+                         String settleClientNo) {
         QueryWrapper<Debit> wrapper = new QueryWrapper<Debit>();
         wrapper.lambda().eq(Debit::getAcctNo, acctNo);
         wrapper.lambda().eq(Debit::getClientNo, clientNo);

@@ -9,7 +9,7 @@ import lombok.Data;
 import java.math.BigDecimal;
 
 /**
- * 积分实体类
+ * 贷记实体类
  */
 @Data
 @TableName("t_acct_balance")

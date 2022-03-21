@@ -25,7 +25,7 @@ public class BussinessServiceImpl implements BussinessService {
     IdWorker idWorker;
 
     /**
-     * 定期支取
+     * 转账支取
      *
      * @param acctNo   账号
      * @param amt      支取金额
